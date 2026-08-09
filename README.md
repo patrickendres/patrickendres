@@ -17,10 +17,10 @@ Mostly Python and SQL against Snowflake, sometimes other back end tasks.
 ```console
 $ stack --sorted
 
-python       ████████████████████░░░░   daily driver · airflow, pandas, requests
-sql          ███████████████████░░░░░   snowflake, stored procedures, optimization
-infrastructure   ███████████████░░░░░░░░░  terraform, ci/cd, data testing 
-javascript   ██████████░░░░░░░░░░░░░░   enough to be dangerous
+python           ████████████████████░░░░   daily driver · airflow, pandas, pyspark, requests
+sql              ███████████████████░░░░░   snowflake, stored procedures, optimization
+infrastructure   ███████████████░░░░░░░░░   terraform, ci/cd, data testing
+javascript       ██████████░░░░░░░░░░░░░░   enough to be dangerous
 ```
 
 ```console
