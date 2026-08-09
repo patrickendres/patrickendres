@@ -2,15 +2,17 @@
 █▀█ ▄▀█ ▀█▀ █▀█ █ █▀▀ █▄▀   █▀▀ █▄ █ █▀▄ █▀█ █▀▀ █▀▀
 █▀▀ █▀█  █  █▀▄ █ █▄▄ █ █   ██▄ █ ▀█ █▄▀ █▀▄ ██▄ ▄▄█
 
-data engineer · python · sql · patrickendr.es
+data engineer · python · sql · infrastructure 
 ```
+
+[patrickendr.es](patrickendr.es)
 
 ```console
 $ whoami
 
 Data engineer with a SRE mindset. Running pipelines at JobGet. 
 
-Mostly Python and SQL against Snowflake, sometimes other back end tasks. 
+Mostly Python and SQL against Snowflake in Airflow, sometimes other back end tasks. 
 
 ```
 
@@ -36,21 +38,19 @@ CSVs. Uses <code>curl_cffi</code> to survive TLS fingerprinting. Python</td></tr
 <tr><td><b><a href="https://github.com/patrickendres/nhl_wiki_agg">nhl_wiki_agg</a></b></td>
 <td>Aggregates all 32 NHL rosters off Wikipedia into one normalized CSV — or one
 per team. Generator-based parsing, identifies itself with a real User-Agent,
-raises on bad status instead of silently writing garbage. Python · BeautifulSoup</td></tr>
+handles errors. Python · BeautifulSoup</td></tr>
 
 <tr><td><b><a href="https://github.com/patrickendres/boxing_wiki_agg">boxing_wiki_agg</a></b></td>
 <td>Flattens current boxing rankings — every division, every sanctioning body — into one
-deduplicated roster per division. Building it surfaced three bugs in the parse: a hardcoded
-division count silently dropping Strawweight, two fighters glued into a single name, and
-title annotations breaking dedupe across bodies. Python · BeautifulSoup</td></tr>
+deduplicated roster per division. Python · BeautifulSoup</td></tr>
 </table></pre>
 
 ```console
-$ cat notes/why-scrapers.md
+$ cat notes/why-are-they-all-scrapers.md
 
-All of my public projects currently are scrapers related to my hobbies: jiu jitsu, hockey, boxing.
+All of my public projects currently are scrapers I use to gather data related to my hobbies: jiu jitsu, hockey, boxing.
 
-Going to aim some more projects in the future.
+Aiming to add some more larger scale projects in the near future that show off other aspects of engineering.
 ```
 
 <div align="center">
