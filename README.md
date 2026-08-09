@@ -45,8 +45,10 @@ per team. Generator-based parsing, identifies itself with a real User-Agent,
 raises on bad status instead of silently writing garbage. Python · BeautifulSoup</td></tr>
 
 <tr><td><b><a href="https://github.com/patrickendres/boxing_wiki_agg">boxing_wiki_agg</a></b></td>
-<td>Same idea, messier source: current boxing rankings across every division and
-sanctioning body, scraped out of inconsistent wiki markup. Python</td></tr>
+<td>Flattens current boxing rankings — every division, every sanctioning body — into one
+deduplicated roster per division. Building it surfaced three bugs in the parse: a hardcoded
+division count silently dropping Strawweight, two fighters glued into a single name, and
+title annotations breaking dedupe across bodies. Python · BeautifulSoup</td></tr>
 
 <tr><td><b><a href="https://github.com/patrickendres/website">website</a></b></td>
 <td>My site and notes, at <a href="https://patrickendr.es">patrickendr.es</a>. Hugo, deployed static. Go templates</td></tr>
