@@ -49,15 +49,12 @@ raises on bad status instead of silently writing garbage. Python · BeautifulSou
 deduplicated roster per division. Building it surfaced three bugs in the parse: a hardcoded
 division count silently dropping Strawweight, two fighters glued into a single name, and
 title annotations breaking dedupe across bodies. Python · BeautifulSoup</td></tr>
-
-<tr><td><b><a href="https://github.com/patrickendres/website">website</a></b></td>
-<td>My site and notes, at <a href="https://patrickendr.es">patrickendr.es</a>. Hugo, deployed static. Go templates</td></tr>
 </table></pre>
 
 ```console
 $ cat notes/why-scrapers.md
 
-Three of the four are scrapers, which is on purpose. Public data on the
+All three are scrapers, which is on purpose. Public data on the
 open web is the closest thing to a real ingestion problem you can run on
 a laptop: the schema drifts, the markup is inconsistent, the source is
 rate-limited, and nobody is going to fix it upstream for you. Everything
