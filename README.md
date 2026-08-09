@@ -2,31 +2,25 @@
 █▀█ ▄▀█ ▀█▀ █▀█ █ █▀▀ █▄▀   █▀▀ █▄ █ █▀▄ █▀█ █▀▀ █▀▀
 █▀▀ █▀█  █  █▀▄ █ █▄▄ █ █   ██▄ █ ▀█ █▄▀ █▀▄ ██▄ ▄▄█
 
-data engineer · python · sql · snowflake · patrickendr.es
+data engineer · python · sql · patrickendr.es
 ```
 
 ```console
 $ whoami
 
-Data engineer. I work on the unglamorous half of the stack — ingestion,
-modeling, and the warehouse jobs that have to be correct at 6am whether
-or not anyone is awake to check.
+Data engineer with a SRE mindset. Running pipelines at JobGet. 
 
-Mostly Python and SQL against Snowflake. Comfortable owning a pipeline
-end to end: pull it, type it, land it, and make the failure mode obvious
-instead of silent.
+Mostly Python and SQL against Snowflake, sometimes other back end tasks. 
 
-Currently learning Go.
 ```
 
 ```console
 $ stack --sorted
 
-python       ████████████████████░░░░   daily driver · requests, bs4, dataclasses
-sql          ███████████████████░░░░░   snowflake, stored procedures, modeling
-bash / git   ███████████████░░░░░░░░░   glue, cron, ci
+python       ████████████████████░░░░   daily driver · airflow, pandas, requests
+sql          ███████████████████░░░░░   snowflake, stored procedures, optimization
+infrastructure   ███████████████░░░░░░░░░  terraform, ci/cd, data testing 
 javascript   ██████████░░░░░░░░░░░░░░   enough to be dangerous
-go           █████░░░░░░░░░░░░░░░░░░░   in progress
 ```
 
 ```console
@@ -54,11 +48,9 @@ title annotations breaking dedupe across bodies. Python · BeautifulSoup</td></t
 ```console
 $ cat notes/why-scrapers.md
 
-All three are scrapers, which is on purpose. Public data on the
-open web is the closest thing to a real ingestion problem you can run on
-a laptop: the schema drifts, the markup is inconsistent, the source is
-rate-limited, and nobody is going to fix it upstream for you. Everything
-that makes a production pipeline annoying is already there.
+All of my public projects currently are scrapers related to my hobbies: jiu jitsu, hockey, boxing.
+
+Going to aim some more projects in the future.
 ```
 
 <div align="center">
